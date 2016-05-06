@@ -32,7 +32,7 @@ app.use(middleware.logger); //important to specify it here
 
 app.get('/route', middleware.requireAuthentication, function(req,res){
     
-    res.send('Hello Express from route');
+    res.send('Hello Express from route!!:D');
     
 });
 
